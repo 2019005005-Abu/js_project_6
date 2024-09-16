@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+</head>
+<style>
+    #main_div{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+    <!-- r -->
+     <div id="main_div">
+        <div>
+            <h1>Weather Application</h1>
+        </div>
+       <div>
+        <input type="text" 
+        placeholder="Enter city" 
+        id="city_input">
+        <button id="get_weather"
+        onclick="Get_weather()">
+            Get weather
+        </button>
+       </div>
+        <div id="weather_info">
+
+        </div>
+     </div>
+    <script src="./index.js"></script>
+</body>
+</html>
